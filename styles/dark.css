@@ -1,4 +1,5 @@
 .page.theme_dark {
+  --page-background-color: #000028;
   --title-bg-color: #ff0070;
   --main-title-color: #db00ff;
   --text-color: #f1b2ce;
@@ -7,21 +8,23 @@
   --page-background-image: url(../images/cover-image-dark.png);
   --title-color: #000028;
   --button-color: var(--accent-color, #ff0070);
-  --border-color: var(--button-color, #ff0070);
+  --border-color: #ff0070;
+  --border-color-o40: rgb(255 0 112 / 0.4);
   --rec-visibility: visible;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --page-background-color: #000028;
     --title-bg-color: #ff0070;
     --main-title-color: #db00ff;
     --text-color: #f1b2ce;
     --accent-color: #ff0070;
-    --page-background-color: #000028;
     --page-background-image: url(../images/cover-image-dark.png);
     --title-color: #000028;
     --button-color: var(--accent-color, #ff0070);
-    --border-color: var(--button-color, #ff0070);
+    --border-color: #ff0070;
+    --border-color-o40: rgb(255 0 112 / 0.4);
     --rec-visibility: visible;
   }
 }

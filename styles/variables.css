@@ -1,4 +1,5 @@
 :root {
+  --page-background-color: #fff1f7;
   --title-bg-color: #ff8dcb;
   --main-title-color: #ffc2e6;
   --main-font: IBM Plex Mono;
@@ -9,6 +10,7 @@
   --page-background-image: url(../images/cover-image-light.png);
   --title-color: var(--text-color, #353430);
   --button-color: var(--text-color, #353430);
-  --border-color: var(--text-color, #353430);
+  --border-color: #353430;
+  --border-color-o40: rgb(50 49 45 / 0.4);
   --rec-visibility: hidden;
 }
