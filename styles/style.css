@@ -194,9 +194,6 @@ h6 {
   outline-offset: 1px;
 }
 
-.second__section {
-}
-
 .third__section {
   display: grid;
   grid-template-columns: 1fr 1fr;
