@@ -66,6 +66,7 @@ h6 {
   color: var(--main-title-color, #ffc2e6);
   font-weight: 700;
   text-shadow: 4px 4px 0 var(--accent-color);
+  align-self: end;
 }
 
 .header__text {
@@ -261,6 +262,10 @@ h6 {
   margin-block-start: clamp(40px, 1.7777rem + 3.0817vw, 60px);
 }
 
+.footer__title {
+  align-self: center;
+}
+
 .footer::before {
   content: "";
   inline-size: 25px;
@@ -286,7 +291,7 @@ h6 {
 @media (width <= 768px) {
   .page__title {
     text-shadow: 2px 2px 0 var(--title-bg-color);
-    /* align-self: center; */
+    align-self: center;
   }
 
   .header__theme-menu {
@@ -322,7 +327,7 @@ h6 {
   }
 
   .page__title {
-    align-items: start;
+    align-items: end;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
