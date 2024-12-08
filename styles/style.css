@@ -53,7 +53,7 @@ h6 {
 
 .header {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
   align-items: start;
   padding: 20px;
   min-block-size: 100vh;
@@ -66,7 +66,6 @@ h6 {
   color: var(--main-title-color, #ffc2e6);
   font-weight: 700;
   text-shadow: 4px 4px 0 var(--accent-color);
-  align-self: end;
 }
 
 .header__text {
@@ -76,7 +75,7 @@ h6 {
   align-self: center;
   margin-block: 0 55px;
   color: var(--title-color);
-  inline-size: clamp(22.1875rem, 17.2761rem + 20.9553vw, 30.6875rem);
+  inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
 }
 
 .header::before {
@@ -287,8 +286,8 @@ h6 {
 
 @media (width <= 768px) {
   .page__title {
-    align-self: center;
     text-shadow: 2px 2px 0 var(--accent-color);
+    align-self: center;
   }
 
   .header__theme-menu {
@@ -311,7 +310,7 @@ h6 {
 
 @media (width <= 375px) {
   .header {
-    grid-template-columns: none;
+    /* grid-template-columns: none; */
     grid-template-rows: none;
     align-items: start;
     padding: 10px;
@@ -324,11 +323,14 @@ h6 {
   }
 
   .page__title {
+    line-height: 82.5%;
+    align-items: start;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .header__text {
     margin-block: 55px;
+    inline-size: initial;
   }
 
   .rec-decor {
