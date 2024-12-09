@@ -69,16 +69,13 @@ h6 {
   color: var(--main-title-color, #db00ff);
   font-weight: 700;
   text-shadow: 4px 4px 0 var(--accent-color);
-  /* align-self: end;
-  justify-self: start; */
 }
 
 .header__text {
   background-color: var(--title-bg-color, #ff0070);
   font-weight: 700;
   justify-self: end;
-  align-self: center;
-  margin-block: 0 55px;
+  margin-block: 55px;
   inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
 }
 
