@@ -1,16 +1,16 @@
 .page {
+  color: var(--text-color, #f1b2ce);
+  font-family: var(--main-font, monospace);
+  font-size: 18px;
+  line-height: 23.4px;
   background-color: var(--page-background-color, #000028);
   background-image: var(
     --page-background-image,
     url("../images/cover-image-dark.png")
   );
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-family: var(--main-font, monospace);
-  color: var(--text-color, #f1b2ce);
-  font-size: 18px;
-  line-height: 23.4px;
+  background-attachment: fixed;
 }
 
 h1,
