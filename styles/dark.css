@@ -8,7 +8,7 @@
   --title-color: #000028;
   --button-color: var(--accent-color, #ff0070);
   --border-color: #ff0070;
-  --border-color-o40: rgb(255 0 112 / 0.4);
+  --border-color-hover: rgb(255 0 112 / 0.4);
   --rec-visibility: visible;
 }
 
@@ -23,7 +23,7 @@
     --title-color: #000028;
     --button-color: var(--accent-color, #ff0070);
     --border-color: #ff0070;
-    --border-color-o40: rgb(255 0 112 / 0.4);
+    --border-color-hover: rgb(255 0 112 / 0.4);
     --rec-visibility: visible;
   }
 }

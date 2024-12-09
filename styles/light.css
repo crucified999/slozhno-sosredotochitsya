@@ -8,7 +8,7 @@
   --title-color: var(--text-color, #353430);
   --button-color: var(--text-color, #353430);
   --border-color: #353430;
-  --border-color-o40: rgb(50 49 45 / 0.4);
+  --border-color-hover: rgb(50 49 45 / 0.4);
   --rec-visibility: hidden;
 }
 
@@ -23,7 +23,7 @@
     --title-color: var(--text-color, #353430);
     --button-color: var(--text-color, #353430);
     --border-color: #353430;
-    --border-color-o40: rgb(50 49 45 / 0.4);
+    --border-color-hover: rgb(50 49 45 / 0.4);
     --link-decoration-color: #353430;
     --rec-visibility: hidden;
   }
