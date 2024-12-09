@@ -1,13 +1,14 @@
 :root {
-    --page-background-color: #000028;
-    --title-bg-color: #ff0070;
-    --main-title-color: #db00ff;
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --page-background-image: url("../images/cover-image-dark.png");
-    --title-color: #000028;
-    --button-color: var(--accent-color, #ff0070);
-    --border-color: #ff0070;
-    --border-color-hover: rgb(255 0 112 / 0.4);
-    --rec-visibility: visible;
+  --page-background-color: #000028;
+  --title-bg-color: #ff0070;
+  --main-title-color: #db00ff;
+  --main-font: IBM Plex Mono;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --page-background-image: url("../images/cover-image-dark.png");
+  --title-color: #000028;
+  --button-color: var(--accent-color, #ff0070);
+  --border-color: #ff0070;
+  --border-color-hover: rgb(255 0 112 / 0.4);
+  --rec-visibility: visible;
 }
