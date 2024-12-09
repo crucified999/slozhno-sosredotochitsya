@@ -69,7 +69,8 @@ h6 {
   color: var(--main-title-color, #db00ff);
   font-weight: 700;
   text-shadow: 4px 4px 0 var(--accent-color);
-  align-self: center;
+  /* align-self: end;
+  justify-self: start; */
 }
 
 .header__text {
@@ -106,6 +107,7 @@ h6 {
 .header__theme-menu {
   justify-self: center;
   align-items: center;
+  margin-block-end: 215px;
 }
 
 .header__theme-menu-list {
@@ -270,17 +272,15 @@ h6 {
 
 .footer__title {
   align-self: center;
+  justify-self: center;
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 @media (width <= 768px) {
-  .page__title {
-    align-self: center;
-  }
-
   .header__theme-menu {
     justify-self: end;
     margin-block-start: 172px;
+    margin-block-end: 70px;
   }
 
   .section__what-description {
@@ -307,7 +307,7 @@ h6 {
 
   .header__theme-menu {
     justify-self: end;
-    margin-block-start: 65px;
+    margin-block: 65px;
   }
 
   .page__title {
