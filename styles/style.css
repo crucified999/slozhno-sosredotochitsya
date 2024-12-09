@@ -69,7 +69,7 @@ h6 {
   color: var(--main-title-color, #db00ff);
   font-weight: 700;
   text-shadow: 4px 4px 0 var(--accent-color);
-  align-self: end;
+  align-self: center;
 }
 
 .header__text {
@@ -216,7 +216,7 @@ h6 {
 
 .gallery {
   padding: 0 20px;
-  margin-block-start: 80px;
+  margin-block-end: 60px;
 }
 
 .images {
@@ -331,7 +331,7 @@ h6 {
     grid-template-rows: repeat(auto-fit, 1fr);
     padding: 0 10px;
     gap: 20px;
-    margin-block-start: 50px;
+    margin-block-end: 50px;
   }
 
   .section__what_title {
@@ -342,7 +342,7 @@ h6 {
     display: grid;
     grid-template-columns: 1fr;
     padding: 0 10px;
-    margin-block-start: 50px;
+    margin-block-end: 40px;
   }
 
   .images {
