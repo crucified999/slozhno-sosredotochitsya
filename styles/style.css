@@ -103,8 +103,9 @@ h6 {
 
 .header__theme-menu {
   justify-self: center;
-  align-items: center;
   margin-block-end: 215px;
+  margin-block-start: 0;
+  margin-inline-start: 20px;
 }
 
 .header__theme-menu-list {
