@@ -160,7 +160,7 @@ h6 {
   gap: 20px;
 }
 
-.section__what {
+.section__column {
   grid-template-columns: none;
   grid-template-rows: repeat(auto-fit, 1fr);
 }
@@ -171,11 +171,11 @@ h6 {
   color: var(--border-color, #ff0070);
 }
 
-.section__what_title {
+.section__column_title {
   max-inline-size: 315px;
 }
 
-.section__what-description {
+.section__column-description {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -209,7 +209,7 @@ h6 {
   outline-offset: 1px;
 }
 
-.third__section__description-title {
+.section__reasons__description-title {
   font-weight: 400;
 }
 
@@ -280,13 +280,13 @@ h6 {
     margin-block-end: 70px;
   }
 
-  .section__what-description {
+  .section__column-description {
     grid-template-columns: none;
     grid-template-rows: repeat(auto-fit, 1fr);
     gap: 20px;
   }
 
-  .section__what_title {
+  .section__column_title {
     max-inline-size: 236px;
   }
 
@@ -331,7 +331,7 @@ h6 {
     margin-block-end: 50px;
   }
 
-  .section__what_title {
+  .section__column_title {
     min-inline-size: 100%;
   }
 
